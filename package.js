@@ -8,8 +8,8 @@ Package.describe({
 Package.on_use(function (api, where) {
 
   api.use([
-    "email",
-    "underscore"
+    "email@1.0.3",
+    "underscore@1.0.0"
   ], "server");
 
   api.add_files([
