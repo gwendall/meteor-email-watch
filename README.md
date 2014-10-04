@@ -14,8 +14,15 @@ Methods
 -------
 
 
-``` sh
-Email.onSent(function(err, data) {
+``` javascript
+Email.onSent(function(err, res) {
   // Deal with it
+  // err: Meteor error
+  // res: Email options -- { from, to, etc. }
 });
 ```
+
+To do
+-----
+
+Handle SMTP errors
