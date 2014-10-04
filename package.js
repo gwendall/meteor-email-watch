@@ -1,7 +1,7 @@
 Package.describe({
   name: "gwendall:email-watch",
   summary: "Watch sent emails",
-  version: "0.1.0",
+  version: "0.1.1",
   git: "https://github.com/gwendall/meteor-email-watch"
 });
 

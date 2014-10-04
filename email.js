@@ -2,7 +2,7 @@ Meteor.startup(function() {
 
   Email._watchers = [];
 
-  Email.onSent = function(watcher) {
+  Email.onSend = function(watcher) {
     if (_.isFunction(watcher)) {
       Email._watchers.push(watcher);
     }

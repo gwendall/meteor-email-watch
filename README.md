@@ -15,7 +15,7 @@ Methods
 
 
 ``` javascript
-Email.onSent(function(err, res) {
+Email.onSend(function(err, res) {
   // Deal with it
   // err: Meteor error
   // res: Email options -- { from, to, etc. }
